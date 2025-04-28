@@ -7,8 +7,6 @@
 .img {
     display: flex;
     justify-content: center;
-    max-width: 100%;
-    height: auto;
 }
 .content {
     display: flex;
@@ -54,8 +52,6 @@
     color: white;
     font-size: large;
     z-index: 1;
-    width: auto;
-    max-width: 90%;
 }
 .content button:hover {
     background-color: #a3e635;
