@@ -1,0 +1,123 @@
+@media (max-width: 768px) {
+    /* Navbar changes */
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.7); /* Slightly transparent on scroll */
+    }
+  
+    nav a {
+      padding: 10px;
+      font-size: 18px;
+      text-align: center;
+    }
+  
+    /* Events section */
+    .events {
+      padding: 20px 10px;
+    }
+  
+    .event-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .left, .middle, .right {
+      width: 100%;
+    }
+  
+    .event {
+      width: 90%;
+      height: auto;
+      transform: none !important; /* remove stacking transform on mobile */
+      margin: 10px 0;
+    }
+  
+    /* About Us Section */
+    #about {
+      padding: 40px 20px;
+      text-align: center;
+    }
+  
+    #about h2 {
+      font-size: 28px;
+    }
+  
+    #about p {
+      font-size: 18px;
+    }
+  
+    /* Footer */
+    footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 20px 10px;
+    }
+  
+    footer .social-icons {
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 10px;
+      gap: 15px;
+    }
+  
+    footer p {
+      font-size: 16px;
+    }
+  
+    /* Join Us Section (Image + Button + Title) */
+    .join-section {
+      position: relative;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .join-section img {
+      max-height: 300px;
+    }
+  
+    .join-button {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 10px 20px;
+      font-size: 18px;
+    }
+  
+    .join-title {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #fde047; /* Your bright yellow */
+    }
+  
+    .join-tagline {
+      font-size: 16px;
+      color: #ccc; /* Light subtle gray */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    nav a {
+      font-size: 16px;
+    }
+  
+    .join-button {
+      font-size: 16px;
+    }
+  
+    #about h2 {
+      font-size: 24px;
+    }
+  
+    #about p {
+      font-size: 16px;
+    }
+  }
+  
