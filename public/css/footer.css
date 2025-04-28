@@ -1,0 +1,48 @@
+.footer {
+    background-color: #0a0f1a;
+    color:#94a3b8;
+    height: 400px;
+    display: flex;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.footer .IEEE-img {
+    padding: 50px;
+    margin: 10px;
+}
+
+.footer .contact {
+    margin: 30px;
+    padding: 15px;
+    width: 260px;
+    margin-right: 50px;
+}
+
+.footer .footer-head {
+    font-size: 30px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #94a3b8;   
+}
+
+.links {
+    margin: 20px;
+    margin-left: 100px;
+}
+
+.links li  {
+    display: inline;
+    padding: 10px;
+}
+
+.links li a {
+    color: #38bdf8;
+    font-size: 24px;
+    transition: 0.5s;
+}
+
+.links li a:hover {
+    color: #a3e635;
+    
+}

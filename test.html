@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .stack-container {
+  position: relative;
+  height: 100vh; /* Just for demo, you can change */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.event-card {
+    border: 1px solid white;
+  position: absolute;
+  width: 300px;
+  padding: 20px;
+  background-color: #1e293b;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+/* Stack from the right edge */
+.event-card:nth-child(1) {
+  z-index: 3;
+  transform: translateX(0px);
+}
+.event-card:nth-child(2) {
+  z-index: 2;
+  transform: translateX(20px);
+}
+.event-card:nth-child(3) {
+  z-index: 1;
+  transform: translateX(40px);
+}
+
+    </style>
+</head>
+<body>
+    <section class="stack-container">
+        <div class="event-card">Upcoming Event 1</div>
+        <div class="event-card">Upcoming Event 2</div>
+        <div class="event-card">Upcoming Event 3</div>
+      </section>
+</body>
+</html>

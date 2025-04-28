@@ -1,0 +1,51 @@
+.test-box {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 50px;
+}
+.testinomials{
+    padding: 20px;
+    text-align: center;
+}
+.testinomial {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin: 100px;
+    border: 1px solid white;
+    text-shadow: 1px 1px 1px;
+    box-shadow: 10px 10px 20px #4f6f1a;
+    transition: 0.5s;
+    transform:skew(3deg);
+    background-color: #17233a;
+}
+.testinomial p {
+    color: #a3e635;
+}
+
+
+
+.testinomial:hover {
+    transform:translate(20px);
+    box-shadow: 15px 10px 20px #4f6f1a;
+    
+}
+.profile {
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+    transition: 0.5s;
+    
+}
+.profile img {
+    border-radius: 30px;
+}
+.profile div {
+    background-color: #a3e635;
+    color: black;
+}
+
+.profile:hover {
+    transform: scale(1.05);
+}

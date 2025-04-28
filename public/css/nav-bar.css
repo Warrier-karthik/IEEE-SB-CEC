@@ -1,0 +1,41 @@
+
+.nav-bar {
+    position: fixed;
+    background-color: #38bdf8;
+    height: 80px;
+    display: flex;
+    justify-content: right;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.nav-bar.scrolled {
+    opacity: 0.8;
+}
+.nav-bar .scroller  {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 30px;
+    width: 800px;
+    font-size: 20px;
+    
+}
+.nav-bar .scroller li {
+    display: inline;
+    padding: 20px;
+    text-shadow: 1px 1px 1px;
+    
+    
+}
+.nav-bar .scroller a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.nav-bar .scroller a:hover {
+    color: 	#818cf8;
+}
