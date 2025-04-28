@@ -4,7 +4,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 10px;
+      padding: 3px;
       background-color: rgba(0, 0, 0, 0.7); /* Slightly transparent on scroll */
     }
   
@@ -72,17 +72,17 @@
     }
   
     /* Join Us Section (Image + Button + Title) */
-    .join-section {
+    .hero {
       position: relative;
       text-align: center;
       padding: 20px;
     }
   
-    .join-section img {
+    .hero img {
       max-height: 300px;
     }
   
-    .join-button {
+    .hero .content button {
       position: absolute;
       bottom: 20px;
       left: 50%;
@@ -91,13 +91,13 @@
       font-size: 18px;
     }
   
-    .join-title {
+    .hero .content h2 {
       font-size: 24px;
       margin-bottom: 10px;
       color: #fde047; /* Your bright yellow */
     }
   
-    .join-tagline {
+    .hero .content p {
       font-size: 16px;
       color: #ccc; /* Light subtle gray */
     }
@@ -108,7 +108,7 @@
       font-size: 16px;
     }
   
-    .join-button {
+    .hero .content button {
       font-size: 16px;
     }
   
