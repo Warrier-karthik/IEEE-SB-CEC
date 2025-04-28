@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "public": "public",
+    "public": true,
     "builds": [
       {
         "src": "*.html",
@@ -13,6 +13,4 @@
         "dest": "/$1"
       }
     ]
-   
-    
 }
