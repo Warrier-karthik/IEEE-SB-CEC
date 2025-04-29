@@ -84,9 +84,9 @@
     }
   
    .hero .content {
-        width: 40%;
+        width: 100%;
         height: auto;
-        
+
    }
 
     .hero .content button {
