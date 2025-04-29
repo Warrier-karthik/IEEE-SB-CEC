@@ -86,10 +86,10 @@
 
     .hero .content button {
       position: absolute;
-      bottom: 20px;
-      left: 50%;
+      bottom: 13px;
+      left: 20%;
       transform: translateX(-50%);
-      padding: 10px 20px;
+      padding: 10px 10px;
       font-size: 18px;
     }
   
