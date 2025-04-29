@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
     /* Navbar changes */
-    nav {
+    .nav-bar {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -8,7 +8,7 @@
       background-color: rgba(0, 0, 0, 0.7); /* Slightly transparent on scroll */
     }
   
-    nav a {
+    .nav-bar a {
       padding: 10px;
       font-size: 18px;
       text-align: center;
