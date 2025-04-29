@@ -83,7 +83,11 @@
         height: 300px;
     }
   
-   
+   .hero .content {
+        width: 40%;
+        height: auto;
+        
+   }
 
     .hero .content button {
       position: absolute;
