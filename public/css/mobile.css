@@ -12,6 +12,9 @@
       font-size: 12px;
       text-align: center;
     }
+    .nav-bar li {
+        padding: 12px;
+    }
   
     /* Events section */
     .events {
