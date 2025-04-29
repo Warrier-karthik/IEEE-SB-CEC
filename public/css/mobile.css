@@ -82,6 +82,8 @@
         width: 100%;
     }
   
+   
+
     .hero .content button {
       position: absolute;
       bottom: 20px;
@@ -92,13 +94,12 @@
     }
   
     .hero .content h2 {
-      font-size: 24px;
+      font-size: 14px;
       margin-bottom: 10px;
-      color: #fde047; /* Your bright yellow */
     }
   
     .hero .content p {
-      font-size: 16px;
+      font-size: 10px;
       color: #ccc; /* Light subtle gray */
     }
   }
